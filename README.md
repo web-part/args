@@ -8,7 +8,8 @@
 
 ### parse(method, args)
 
-```
+
+``` javascript
 const args = require('@webpart/args');
 const info = args.parse();
 
@@ -61,6 +62,8 @@ info = {
 *   };
 */
 ```
+
+## 在命令行中的使用示例
 
 ``` javascript
 /**
