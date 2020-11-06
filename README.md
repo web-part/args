@@ -22,11 +22,12 @@ info = {
     value: 'localhost', //针对要执行的动作所要使用的值。 
 };
 
-//如果在命令行中输入 node build compat pack qr 450,
+//如果在命令行中输入 node build compat pack dist qr 450,
 //则返回的信息为：
 info = {
     compat: true,       //使用了 `compat` 选项。
     pack: true,         //使用了 `pack` 选项。
+    scheme: 'dist',     //使用的配置方案，默认为 `dist`。 
     action: 'qr',       //附带要执行的动作。
     value: '450',       //针对要执行的动作所要使用的值。 
 };
